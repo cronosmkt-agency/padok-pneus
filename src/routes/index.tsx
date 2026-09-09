@@ -552,21 +552,21 @@ ${notes ? `*Observações:* ${notes}` : ""}`;
                 <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-blue-950 text-yellow-400 border border-yellow-400/50">
                   {renderIcon("Wrench")}
                 </div>
-                <span className="text-lg font-bold text-white">{c['name']}</span>
+                <span className="text-lg font-bold text-white">Padok Pneus — Revenda Michelin</span>
               </div>
               <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-                {c['meta_desc']}
+                Pneus Michelin oficiais com parcelamento em até 10x sem juros, alinhamento computadorizado 3D, balanceamento, freios e suspensão na Várzea.
               </p>
             </div>
 
             <div>
               <h4 className="text-xs font-bold tracking-wider text-white uppercase">Endereço</h4>
-              <p className="mt-3 text-xs leading-relaxed text-muted-foreground">{c['address']}</p>
+              <p className="mt-3 text-xs leading-relaxed text-muted-foreground">{address}</p>
             </div>
 
             <div>
               <h4 className="text-xs font-bold tracking-wider text-white uppercase">Horários</h4>
-              <p className="mt-3 text-xs leading-relaxed text-muted-foreground">{c['hours']}</p>
+              <p className="mt-3 text-xs leading-relaxed text-muted-foreground">{hours}</p>
             </div>
 
             <div>
@@ -577,7 +577,7 @@ ${notes ? `*Observações:* ${notes}` : ""}`;
           </div>
 
           <div className="mt-12 border-t border-border pt-6 text-center text-xs text-muted-foreground">
-            © {new Date().getFullYear()} {c['name']} · Todos os direitos reservados · Desenvolvimento e Performance por Cronos Agency
+            © {new Date().getFullYear()} Padok Pneus — Revenda Michelin · Todos os direitos reservados · Desenvolvimento e Performance por Cronos Agency
           </div>
         </div>
       </footer>
