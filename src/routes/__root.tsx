@@ -77,7 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     ],
     links: [
       { rel: "stylesheet", href: appCss },
-      { rel: "icon", type: "image/svg+xml", href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='#002d72'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' fill='white' font-family='sans-serif' font-weight='800' font-size='40'>PP</text></svg>" },
+      { rel: "icon", type: "image/svg+xml", href: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23002D72'/><rect x='4' y='4' width='92' height='92' rx='21' fill='none' stroke='%23FACC15' stroke-width='4'/><text x='50%' y='55%' text-anchor='middle' dominant-baseline='middle' fill='%23FFFFFF' font-family='sans-serif' font-weight='900' font-size='38'>PP</text></svg>" },
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
